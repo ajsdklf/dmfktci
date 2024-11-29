@@ -38,7 +38,7 @@ with st.spinner('시스템을 초기화하는 중...'):
     driver = GraphDatabase.driver(URI, auth=AUTH)
     driver.verify_connectivity()
 
-st.markdown('<p class="big-font">서비스 추천 시스템 🎯</p>', unsafe_allow_html=True)
+st.markdown('<p class="big-font">개인화 정부 혜택 추천 🎯</p>', unsafe_allow_html=True)
 st.markdown("---")
 
 embeddings = OpenAIEmbeddings(model='text-embedding-3-large', api_key=os.getenv('OPENAI_API_KEY'))
