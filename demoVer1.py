@@ -43,15 +43,15 @@ st.markdown("---")
 
 embeddings = OpenAIEmbeddings(model='text-embedding-3-large', api_key=os.getenv('OPENAI_API_KEY'))
 
-db_service_description = Chroma(persist_directory='./database_try1/exp19_vector_db_service_description', embedding_function=embeddings)
-db_target_summary = Chroma(persist_directory='./database_try1/exp19_vector_db_target_summary', embedding_function=embeddings)
+db_service_description = Chroma(persist_directory='./database/exp19_vector_db_service_description', embedding_function=embeddings)
+db_target_summary = Chroma(persist_directory='./database/exp19_vector_db_target_summary', embedding_function=embeddings)
 
 # Load data with progress bar
 with st.spinner('데이터를 불러오는 중...'):
-    with open('./database_try1/exp17_db_compiling_with_age_restriction.json', 'r', encoding='utf-8') as f:
+    with open('./database/exp17_db_compiling_with_age_restriction.json', 'r', encoding='utf-8') as f:
         db = json.load(f)
 
-    with open('./database_try1/exp11_clusters.json', 'r', encoding='utf-8') as f:
+    with open('./database/exp11_clusters.json', 'r', encoding='utf-8') as f:
         clusters = json.load(f)
 
 # Initialize session states
