@@ -5,19 +5,19 @@ from openai import OpenAI
 
 client = OpenAI()
 
-with open('./database_try1/exp10_categories.json', 'r', encoding='utf-8') as f:
+with open('./database_try1/exp9_smaller_db.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 print(data)
 
 categories = []
 for data_ in data:
-    categories.append(data_['service_category'])
+    categories.append(data_['service_description'])
 
 print(len(categories))
 
 print(categories)
-categories = [category for category in categories if category != 'None']
+categories = [category for category in categories if category != '']
 
 print(categories)
 print(len(categories))

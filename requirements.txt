@@ -7,7 +7,5 @@ selenium
 bs4
 requests
 neo4j
-langchain
-langchain-community
-langchain-openai 
 langchain-neo4j
+langchain-chroma

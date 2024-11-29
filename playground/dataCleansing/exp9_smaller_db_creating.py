@@ -8,7 +8,7 @@ print(data)
 print(type(data))
 print(len(data))
 
-data = data[:100]
+data = data[:400]
 print(len(data))
 
 with open('./database_try1/exp9_smaller_db.json', 'w', encoding='utf-8') as f:
