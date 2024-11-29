@@ -19,5 +19,8 @@ for dataset in datasets:
         cleaned_dataset[key] = value
     cleansed_datasets.append(cleaned_dataset)
 
+for i, dataset in enumerate(cleansed_datasets):
+    dataset['id'] = i
+
 with open('./database_try1/exp4_cleansed_data.json', 'w', encoding='utf-8') as f:
     json.dump(cleansed_datasets, f, ensure_ascii=False, indent=4)

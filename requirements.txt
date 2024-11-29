@@ -6,3 +6,6 @@ langchain-openai
 selenium
 bs4
 requests
+neo4j
+langchain-neo4j
+langchain-chroma
