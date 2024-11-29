@@ -1,0 +1,44 @@
+{
+    "clusters": [
+        {
+            "cluster_topic": "청년 지원 서비스",
+            "cluster_id": 1
+        },
+        {
+            "cluster_topic": "장애인 지원 서비스",
+            "cluster_id": 2
+        },
+        {
+            "cluster_topic": "주택 지원 서비스",
+            "cluster_id": 3
+        },
+        {
+            "cluster_topic": "출산 지원 서비스",
+            "cluster_id": 4
+        },
+        {
+            "cluster_topic": "노인 지원 서비스",
+            "cluster_id": 5
+        },
+        {
+            "cluster_topic": "가족 지원 서비스",
+            "cluster_id": 6
+        },
+        {
+            "cluster_topic": "소득 지원 서비스",
+            "cluster_id": 7
+        },
+        {
+            "cluster_topic": "교육 지원 서비스",
+            "cluster_id": 8
+        },
+        {
+            "cluster_topic": "건강 지원 서비스",
+            "cluster_id": 9
+        },
+        {
+            "cluster_topic": "취업 지원 서비스",
+            "cluster_id": 10
+        }
+    ]
+}
