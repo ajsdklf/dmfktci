@@ -9,3 +9,6 @@ requests
 neo4j
 langchain-neo4j
 langchain-chroma
+chromadb
+sqlite3
+langchain-chroma
